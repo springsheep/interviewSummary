@@ -4,7 +4,7 @@
  * @Author: 张鹏
  * @Date: 2021-08-31 10:56:45
  * @LastEditors: 张鹏
- * @LastEditTime: 2021-12-24 15:37:40
+ * @LastEditTime: 2021-12-24 16:26:35
  */
 /*
  * @Author: your name
@@ -19,6 +19,7 @@ module.exports = {
    title: '面试宝典',
    description: '面试整理',
    themeConfig: {
+      logo: '	https://cn.vuejs.org/images/logo.svg      ',
       nav: [
          {
             text: '小新指南', link: '/guide/'
