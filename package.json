@@ -1,0 +1,13 @@
+{
+  "name": "vuepress",
+  "version": "1.0.0",
+  "description": "study file",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "doc": "npx vuepress dev docs",
+    "build:doc": "npx vuepress build docs"
+  },
+  "author": "",
+  "license": "ISC"
+}
