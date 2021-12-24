@@ -4,7 +4,7 @@
  * @Author: 张鹏
  * @Date: 2021-08-31 10:56:45
  * @LastEditors: 张鹏
- * @LastEditTime: 2021-12-24 13:58:07
+ * @LastEditTime: 2021-12-24 15:37:40
  */
 /*
  * @Author: your name
@@ -15,6 +15,7 @@
  * @FilePath: \sgup-web-front\docs\.vuepress\config.js
  */
 module.exports = {
+   base: '/interviewSummary/',
    title: '面试宝典',
    description: '面试整理',
    themeConfig: {
@@ -111,16 +112,13 @@ module.exports = {
          },
 
       ],
-      // 假如你的文档仓库和项目本身不在一个仓库：
-      docsRepo: 'vuejs/vuepress',
-      // 假如文档不是放在仓库的根目录下：
+
       docsDir: 'docs',
-      // 假如文档放在一个特定的分支下：
-      docsBranch: 'master',
-      // 默认是 false, 设置为 true 来启用
+      docsBranch: 'gh-pages',
+      repoLabel: '查看源码',
       editLinks: true,
-      // 默认为 "Edit this page"
-      editLinkText: '帮助我们改善此页面！'
+      editLinkText: '帮助我们改善此页面！',
+      lastUpdated: '上次更新', // string | boolean
    },
    configureWebpack: {
       resolve: {
