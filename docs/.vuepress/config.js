@@ -4,7 +4,7 @@
  * @Author: 张鹏
  * @Date: 2021-08-31 10:56:45
  * @LastEditors: 张鹏
- * @LastEditTime: 2021-12-24 16:26:35
+ * @LastEditTime: 2021-12-29 10:56:20
  */
 /*
  * @Author: your name
@@ -110,6 +110,7 @@ module.exports = {
             ],
          }, {
             title: '微前端',
+            path: "/components/micro-front-end.md"
          },
 
       ],
